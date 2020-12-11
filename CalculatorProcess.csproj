@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class_Lib_Calculator\**" />
+    <Compile Remove="ConsoleSampleCalc\**" />
+    <Compile Remove="XUnitCalculatorProcessTest\**" />
+    <EmbeddedResource Remove="Class_Lib_Calculator\**" />
+    <EmbeddedResource Remove="ConsoleSampleCalc\**" />
+    <EmbeddedResource Remove="XUnitCalculatorProcessTest\**" />
+    <None Remove="Class_Lib_Calculator\**" />
+    <None Remove="ConsoleSampleCalc\**" />
+    <None Remove="XUnitCalculatorProcessTest\**" />
+  </ItemGroup>
+
+</Project>
